@@ -274,7 +274,8 @@ body {
 
 .content-section.active {
     display: block;
-    padding-top: 3.5rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 /* Paper grid texture — full width on Home & About sections */
@@ -290,13 +291,6 @@ body {
 #partners-section,
 #tutors-section {
     background-color: #ffffff;
-    padding-bottom: 3rem;
-}
-
-/* Spacing after the sticky header on listing pages */
-#partners-section .section-header,
-#tutors-section .section-header {
-    margin-top: 1.5rem;
 }
 
 /* Inner container that limits width within full-width sections */
@@ -401,8 +395,7 @@ body {
     grid-template-columns: 1fr 1.1fr;
     gap: 4rem;
     align-items: center;
-    margin-top: 1.5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 5rem;
 }
 
 @media (max-width: 900px) {
